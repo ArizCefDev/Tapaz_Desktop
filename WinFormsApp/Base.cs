@@ -33,6 +33,33 @@ namespace WinFormsApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                connection.Open();
+                string script = @"INSERT INTO NewProduct(Category, City, Price, Subject, Name, Email, Contact, Phone)
+                                             VALUES(@category, @city, @price, @subject, @name, @email, @contact, @phone)";
+
+                SqlCommand command = new SqlCommand(script, connection);
+                command.Parameters.AddWithValue("@category", comboBox1.Text);
+                command.Parameters.AddWithValue("@city", comboBox2.Text);
+                command.Parameters.AddWithValue("@price", textBox1.Text);
+                command.Parameters.AddWithValue("@subject", richTextBox1.Text);
+                command.Parameters.AddWithValue("@name", textBox2.Text);
+                command.Parameters.AddWithValue("@email", textBox3.Text);
+                command.Parameters.AddWithValue("@contact", comboBox3.Text);
+                command.Parameters.AddWithValue("@phone", maskedTextBox1.Text);
+                command.ExecuteNonQuery();
+                MessageBox.Show("Elan əlavə edildi");
+            }
+            catch (Exception x)
+            {
+                MessageBox.Show(x.Message);
+
+            }
+            finally
+            {
+                connection.Close();
+            }
 
         }
 

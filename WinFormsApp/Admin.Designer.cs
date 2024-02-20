@@ -65,6 +65,7 @@
             button2.TabIndex = 2;
             button2.Text = "Update";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -78,6 +79,7 @@
             button3.TabIndex = 3;
             button3.Text = "Delete";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -91,6 +93,7 @@
             button4.TabIndex = 4;
             button4.Text = "Axtar";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // textBox1
             // 
@@ -119,6 +122,7 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(1296, 531);
             dataGridView1.TabIndex = 8;
+            dataGridView1.CellMouseClick += dataGridView1_CellMouseClick;
             // 
             // label1
             // 
@@ -149,6 +153,7 @@
             Name = "Admin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Admin";
+            Load += Admin_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

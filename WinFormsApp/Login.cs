@@ -19,7 +19,7 @@ namespace WinFormsApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "0703090322")
+            if (maskedTextBox1.Text == "(070) 309-03-22")
             {
                 Admin next = new Admin();
                 next.Show();

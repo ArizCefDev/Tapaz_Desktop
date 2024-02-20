@@ -51,7 +51,6 @@
             label3 = new Label();
             label2 = new Label();
             groupBox2 = new GroupBox();
-            textBox4 = new TextBox();
             label10 = new Label();
             textBox3 = new TextBox();
             label6 = new Label();
@@ -60,6 +59,7 @@
             label7 = new Label();
             label8 = new Label();
             label1 = new Label();
+            maskedTextBox1 = new MaskedTextBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -241,21 +241,23 @@
             // 
             comboBox2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Baki", "Sumqayit" });
+            comboBox2.Items.AddRange(new object[] { "Ağdam", "Ağdaş", "Ağdərə", "Ağsu", "Astara", "Bakı", "Balakən", "Beyləqan", "Bərdə", "Biləsuvar", "Cəbrayıl", "Cəlilabad", "Culfa", "Daşkəsən", "Füzuli", "Gədəbəy", "Gəncə", "Goranboy", "Göyçay", "Göygöl", "Göytəpə", "Hacıqabul", "Horadiz", "İmişli", "İsmayıllı", "Kəlbəcər", "Kürdəmir", "Laçın", "Lerik", "Lənkəran", "Masallı" });
             comboBox2.Location = new Point(163, 69);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(339, 33);
             comboBox2.TabIndex = 33;
+            comboBox2.Text = "Bakı";
             // 
             // comboBox1
             // 
             comboBox1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Kisi", "Qadin", "Usaq" });
+            comboBox1.Items.AddRange(new object[] { "Qidalanma üçün uşaq oturacaqları", "Oyuncaqlar", "Uşaq arabaları", "Uşaq avtomobilləri", "Uşaq çarpayıları və beşiklər", "Uşaq daşıyıcıları", "Məktəblilər üçün", "Saat və zinət əşyaları", "Aksesuarlar", "Sağlamlıq və gözəllik", "İtmiş əşyalar", "Elektron siqaretlər və tütün qızdırıcıları", "Məişət texnikası", "Ərzaq", "Qab-qacaq və mətbəx ləvazimatları", "Bitkilər", "Xalçalar və aksesuarlar", "Ev və bağ üçün işiqlandırma", "Kompüter aksesuarları", "Oyunlar, pultlar və proqramlar", "Akvariumlar və balıqlar", "Təmir və tikinti", "Təmizlik", "Tərcümə", "Tibbi xidmətlər", "Tibbi xidmətlər" });
             comboBox1.Location = new Point(163, 21);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(339, 33);
             comboBox1.TabIndex = 32;
+            comboBox1.Text = "Siyahıdan seçin";
             // 
             // label9
             // 
@@ -310,7 +312,7 @@
             // groupBox2
             // 
             groupBox2.BackColor = Color.WhiteSmoke;
-            groupBox2.Controls.Add(textBox4);
+            groupBox2.Controls.Add(maskedTextBox1);
             groupBox2.Controls.Add(label10);
             groupBox2.Controls.Add(textBox3);
             groupBox2.Controls.Add(label6);
@@ -323,15 +325,6 @@
             groupBox2.Size = new Size(561, 210);
             groupBox2.TabIndex = 22;
             groupBox2.TabStop = false;
-            // 
-            // textBox4
-            // 
-            textBox4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox4.Location = new Point(157, 147);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(339, 34);
-            textBox4.TabIndex = 39;
-            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // label10
             // 
@@ -368,11 +361,12 @@
             // 
             comboBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             comboBox3.FormattingEnabled = true;
-            comboBox3.Items.AddRange(new object[] { "Zengler ve mesajlar", "Zengler ", "Mesajlar" });
+            comboBox3.Items.AddRange(new object[] { "Zənglər və Mesajlar", "Ancaq zənglər", "Ancaq mesajlar" });
             comboBox3.Location = new Point(157, 105);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(339, 36);
             comboBox3.TabIndex = 34;
+            comboBox3.Text = "Zənglər və Mesajlar";
             comboBox3.SelectedIndexChanged += comboBox3_SelectedIndexChanged;
             // 
             // textBox2
@@ -415,6 +409,15 @@
             label1.TabIndex = 23;
             label1.Text = "Yeni elan";
             // 
+            // maskedTextBox1
+            // 
+            maskedTextBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            maskedTextBox1.Location = new Point(157, 148);
+            maskedTextBox1.Mask = "(000) 000-00-00";
+            maskedTextBox1.Name = "maskedTextBox1";
+            maskedTextBox1.Size = new Size(339, 34);
+            maskedTextBox1.TabIndex = 39;
+            // 
             // Base
             // 
             AutoScaleDimensions = new SizeF(22F, 50F);
@@ -449,7 +452,6 @@
         private Panel panel2;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
-        private TextBox textBox4;
         private TextBox textBox3;
         private TextBox textBox2;
         private RichTextBox richTextBox1;
@@ -475,5 +477,6 @@
         private Label label14;
         private Label label18;
         private Label label17;
+        private MaskedTextBox maskedTextBox1;
     }
 }

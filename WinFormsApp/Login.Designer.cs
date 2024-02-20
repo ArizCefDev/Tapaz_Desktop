@@ -30,12 +30,12 @@
         {
             label1 = new Label();
             label7 = new Label();
-            textBox1 = new TextBox();
             label2 = new Label();
             button1 = new Button();
             groupBox1 = new GroupBox();
-            button2 = new Button();
             label3 = new Label();
+            button2 = new Button();
+            maskedTextBox1 = new MaskedTextBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -58,13 +58,6 @@
             label7.Size = new Size(149, 28);
             label7.TabIndex = 16;
             label7.Text = "Telefon nömrəsi";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(36, 128);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(411, 57);
-            textBox1.TabIndex = 19;
             // 
             // label2
             // 
@@ -94,10 +87,10 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.White;
+            groupBox1.Controls.Add(maskedTextBox1);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(textBox1);
             groupBox1.Controls.Add(label7);
             groupBox1.Location = new Point(428, 224);
             groupBox1.Name = "groupBox1";
@@ -105,17 +98,6 @@
             groupBox1.TabIndex = 21;
             groupBox1.TabStop = false;
             groupBox1.Enter += groupBox1_Enter;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Transparent;
-            button2.Location = new Point(1171, 53);
-            button2.Name = "button2";
-            button2.Size = new Size(71, 64);
-            button2.TabIndex = 21;
-            button2.Text = "X";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
             // 
             // label3
             // 
@@ -128,6 +110,25 @@
             label3.TabIndex = 21;
             label3.Text = "Daxil edilən operator kodu yanlışdır";
             label3.Visible = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Transparent;
+            button2.Location = new Point(1171, 53);
+            button2.Name = "button2";
+            button2.Size = new Size(71, 64);
+            button2.TabIndex = 21;
+            button2.Text = "X";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // maskedTextBox1
+            // 
+            maskedTextBox1.Location = new Point(36, 139);
+            maskedTextBox1.Mask = "(000) 000-00-00";
+            maskedTextBox1.Name = "maskedTextBox1";
+            maskedTextBox1.Size = new Size(411, 57);
+            maskedTextBox1.TabIndex = 22;
             // 
             // Login
             // 
@@ -153,11 +154,11 @@
 
         private Label label1;
         private Label label7;
-        private TextBox textBox1;
         private Label label2;
         private Button button1;
         private GroupBox groupBox1;
         private Button button2;
         private Label label3;
+        private MaskedTextBox maskedTextBox1;
     }
 }
