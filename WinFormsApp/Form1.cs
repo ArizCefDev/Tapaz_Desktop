@@ -12,14 +12,19 @@ namespace WinFormsApp
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(@"
+                    101 - Lays - 2.96 azn
+                    102 - Corek - 0.50 azn
+                    103 - Twix - 2.00 azn
+                    ");
         }
     }
 }
