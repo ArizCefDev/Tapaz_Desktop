@@ -118,79 +118,133 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="unidt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\unidt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="unicl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\unicl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="uniph1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\uniph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="uniph" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\uniph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\m7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="da0f0e6cb1d7f5f7d611600f3c141bc36f4cf95c" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\da0f0e6cb1d7f5f7d611600f3c141bc36f4cf95c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ayarlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ayarlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="unicl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\unicl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\m2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icon2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\m6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kplogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\kplogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sondur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\sondur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yenile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\yenile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="unicl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\unicl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="uniph2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\uniph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cixmaq" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\cixmaq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kfc_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Kfc_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="9026952_police_car_thin_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9026952_police_car_thin_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unidt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\unidt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unicl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\unicl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\logo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9024718_key_light_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9024718_key_light_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="da0f0e6cb1d7f5f7d611600f3c141bc36f4cf95c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\da0f0e6cb1d7f5f7d611600f3c141bc36f4cf95c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\m1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\m5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="211754_heart_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\211754_heart_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="unidt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\unidt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sondur" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\sondur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\logo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="unidt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\unidt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eye-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\eye-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\m8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\m4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ayarlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ayarlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\m3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="uniph2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="m7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\m7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9025903_police_car_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9025903_police_car_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\m8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unidt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\unidt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-158672868-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\istockphoto-158672868-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\m4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1642856_bed_hotel_twin_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1642856_bed_hotel_twin_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uniph1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\uniph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unidt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\unidt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\m5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uniph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\uniph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666647_heart_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\8666647_heart_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3512623_airplane_flight_plane_transportation_travel_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\3512623_airplane_flight_plane_transportation_travel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icon1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unicl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\unicl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon3-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icon3-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9024718_key_light_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9024718_key_light_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\m2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\eye-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yenile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\yenile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kplogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\kplogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1642856_bed_hotel_twin_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1642856_bed_hotel_twin_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kfc_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Kfc_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unicl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\unicl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3512623_airplane_flight_plane_transportation_travel_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\3512623_airplane_flight_plane_transportation_travel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gettyimages-1400261717-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\gettyimages-1400261717-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

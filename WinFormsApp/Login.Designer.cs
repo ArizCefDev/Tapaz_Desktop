@@ -52,9 +52,9 @@
             // c_btn
             // 
             c_btn.BackColor = Color.Gray;
-            c_btn.Location = new Point(24, 148);
+            c_btn.Location = new Point(87, 144);
             c_btn.Name = "c_btn";
-            c_btn.Size = new Size(186, 74);
+            c_btn.Size = new Size(330, 74);
             c_btn.TabIndex = 1;
             c_btn.Text = "C";
             c_btn.UseVisualStyleBackColor = false;
@@ -63,9 +63,9 @@
             // btn_sifir
             // 
             btn_sifir.BackColor = Color.Gray;
-            btn_sifir.Location = new Point(232, 148);
+            btn_sifir.Location = new Point(437, 144);
             btn_sifir.Name = "btn_sifir";
-            btn_sifir.Size = new Size(81, 74);
+            btn_sifir.Size = new Size(155, 74);
             btn_sifir.TabIndex = 3;
             btn_sifir.Text = "00";
             btn_sifir.UseVisualStyleBackColor = false;
@@ -74,9 +74,9 @@
             // bolme_btn
             // 
             bolme_btn.BackColor = Color.FromArgb(255, 128, 0);
-            bolme_btn.Location = new Point(336, 148);
+            bolme_btn.Location = new Point(614, 144);
             bolme_btn.Name = "bolme_btn";
-            bolme_btn.Size = new Size(81, 74);
+            bolme_btn.Size = new Size(155, 74);
             bolme_btn.TabIndex = 4;
             bolme_btn.Text = "/";
             bolme_btn.UseVisualStyleBackColor = false;
@@ -85,9 +85,9 @@
             // vurma_btn
             // 
             vurma_btn.BackColor = Color.FromArgb(255, 128, 0);
-            vurma_btn.Location = new Point(336, 249);
+            vurma_btn.Location = new Point(612, 245);
             vurma_btn.Name = "vurma_btn";
-            vurma_btn.Size = new Size(81, 74);
+            vurma_btn.Size = new Size(155, 74);
             vurma_btn.TabIndex = 8;
             vurma_btn.Text = "*";
             vurma_btn.UseVisualStyleBackColor = false;
@@ -96,9 +96,9 @@
             // btn9
             // 
             btn9.ForeColor = Color.Black;
-            btn9.Location = new Point(232, 249);
+            btn9.Location = new Point(437, 245);
             btn9.Name = "btn9";
-            btn9.Size = new Size(81, 74);
+            btn9.Size = new Size(155, 74);
             btn9.TabIndex = 7;
             btn9.Text = "9";
             btn9.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@
             // btn8
             // 
             btn8.ForeColor = Color.Black;
-            btn8.Location = new Point(128, 249);
+            btn8.Location = new Point(262, 245);
             btn8.Name = "btn8";
-            btn8.Size = new Size(81, 74);
+            btn8.Size = new Size(155, 74);
             btn8.TabIndex = 6;
             btn8.Text = "8";
             btn8.UseVisualStyleBackColor = true;
@@ -118,9 +118,9 @@
             // btn7
             // 
             btn7.ForeColor = Color.Black;
-            btn7.Location = new Point(24, 249);
+            btn7.Location = new Point(87, 245);
             btn7.Name = "btn7";
-            btn7.Size = new Size(81, 74);
+            btn7.Size = new Size(155, 74);
             btn7.TabIndex = 5;
             btn7.Text = "7";
             btn7.UseVisualStyleBackColor = true;
@@ -129,9 +129,9 @@
             // toplama_btn
             // 
             toplama_btn.BackColor = Color.FromArgb(255, 128, 0);
-            toplama_btn.Location = new Point(336, 459);
+            toplama_btn.Location = new Point(612, 455);
             toplama_btn.Name = "toplama_btn";
-            toplama_btn.Size = new Size(81, 74);
+            toplama_btn.Size = new Size(155, 74);
             toplama_btn.TabIndex = 12;
             toplama_btn.Text = "+";
             toplama_btn.UseVisualStyleBackColor = false;
@@ -140,9 +140,9 @@
             // btn3
             // 
             btn3.ForeColor = Color.Black;
-            btn3.Location = new Point(232, 459);
+            btn3.Location = new Point(437, 455);
             btn3.Name = "btn3";
-            btn3.Size = new Size(81, 74);
+            btn3.Size = new Size(155, 74);
             btn3.TabIndex = 11;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = true;
@@ -151,9 +151,9 @@
             // btn2
             // 
             btn2.ForeColor = Color.Black;
-            btn2.Location = new Point(128, 459);
+            btn2.Location = new Point(262, 455);
             btn2.Name = "btn2";
-            btn2.Size = new Size(81, 74);
+            btn2.Size = new Size(155, 74);
             btn2.TabIndex = 10;
             btn2.Text = "2";
             btn2.UseVisualStyleBackColor = true;
@@ -162,9 +162,9 @@
             // btn1
             // 
             btn1.ForeColor = Color.Black;
-            btn1.Location = new Point(24, 459);
+            btn1.Location = new Point(87, 455);
             btn1.Name = "btn1";
-            btn1.Size = new Size(81, 74);
+            btn1.Size = new Size(155, 74);
             btn1.TabIndex = 9;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = true;
@@ -173,9 +173,9 @@
             // cixma_btn
             // 
             cixma_btn.BackColor = Color.FromArgb(255, 128, 0);
-            cixma_btn.Location = new Point(337, 354);
+            cixma_btn.Location = new Point(612, 350);
             cixma_btn.Name = "cixma_btn";
-            cixma_btn.Size = new Size(81, 74);
+            cixma_btn.Size = new Size(155, 74);
             cixma_btn.TabIndex = 16;
             cixma_btn.Text = "-";
             cixma_btn.UseVisualStyleBackColor = false;
@@ -184,9 +184,9 @@
             // btn6
             // 
             btn6.ForeColor = Color.Black;
-            btn6.Location = new Point(233, 354);
+            btn6.Location = new Point(437, 350);
             btn6.Name = "btn6";
-            btn6.Size = new Size(81, 74);
+            btn6.Size = new Size(155, 74);
             btn6.TabIndex = 15;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = true;
@@ -195,9 +195,9 @@
             // btn5
             // 
             btn5.ForeColor = Color.Black;
-            btn5.Location = new Point(129, 354);
+            btn5.Location = new Point(262, 350);
             btn5.Name = "btn5";
-            btn5.Size = new Size(81, 74);
+            btn5.Size = new Size(155, 74);
             btn5.TabIndex = 14;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = true;
@@ -206,9 +206,9 @@
             // btn4
             // 
             btn4.ForeColor = Color.Black;
-            btn4.Location = new Point(25, 354);
+            btn4.Location = new Point(87, 350);
             btn4.Name = "btn4";
-            btn4.Size = new Size(81, 74);
+            btn4.Size = new Size(155, 74);
             btn4.TabIndex = 13;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = true;
@@ -217,9 +217,9 @@
             // beraber_btn
             // 
             beraber_btn.BackColor = Color.FromArgb(255, 128, 0);
-            beraber_btn.Location = new Point(337, 566);
+            beraber_btn.Location = new Point(614, 553);
             beraber_btn.Name = "beraber_btn";
-            beraber_btn.Size = new Size(81, 74);
+            beraber_btn.Size = new Size(155, 74);
             beraber_btn.TabIndex = 20;
             beraber_btn.Text = "=";
             beraber_btn.UseVisualStyleBackColor = false;
@@ -228,9 +228,9 @@
             // btn_noqte
             // 
             btn_noqte.ForeColor = Color.Black;
-            btn_noqte.Location = new Point(233, 566);
+            btn_noqte.Location = new Point(437, 553);
             btn_noqte.Name = "btn_noqte";
-            btn_noqte.Size = new Size(81, 74);
+            btn_noqte.Size = new Size(155, 74);
             btn_noqte.TabIndex = 19;
             btn_noqte.Text = ".";
             btn_noqte.UseVisualStyleBackColor = true;
@@ -239,9 +239,9 @@
             // btn0
             // 
             btn0.ForeColor = Color.Black;
-            btn0.Location = new Point(25, 566);
+            btn0.Location = new Point(87, 553);
             btn0.Name = "btn0";
-            btn0.Size = new Size(184, 74);
+            btn0.Size = new Size(330, 74);
             btn0.TabIndex = 17;
             btn0.Text = "0";
             btn0.UseVisualStyleBackColor = true;
@@ -249,10 +249,12 @@
             // 
             // label1
             // 
+            label1.BackColor = Color.White;
             label1.BorderStyle = BorderStyle.Fixed3D;
-            label1.Location = new Point(25, 40);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(87, 36);
             label1.Name = "label1";
-            label1.Size = new Size(392, 55);
+            label1.Size = new Size(681, 55);
             label1.TabIndex = 21;
             label1.Text = "0";
             label1.TextAlign = ContentAlignment.MiddleRight;
@@ -261,8 +263,8 @@
             // 
             AutoScaleDimensions = new SizeF(22F, 50F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Black;
-            ClientSize = new Size(440, 690);
+            BackColor = Color.SteelBlue;
+            ClientSize = new Size(855, 690);
             Controls.Add(label1);
             Controls.Add(beraber_btn);
             Controls.Add(btn_noqte);

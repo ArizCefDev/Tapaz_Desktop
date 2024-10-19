@@ -24,7 +24,7 @@ namespace WinFormsApp
         private void Login_Load(object sender, EventArgs e)
         {
             label1.Text = "0";
-            cleanDisplay=true;
+            cleanDisplay = true;
         }
 
 
@@ -102,7 +102,7 @@ namespace WinFormsApp
 
         private void btn6_Click(object sender, EventArgs e)
         {
-           if (cleanDisplay)
+            if (cleanDisplay)
             {
                 label1.Text = "";
                 cleanDisplay = false;
@@ -207,13 +207,13 @@ namespace WinFormsApp
 
         private void beraber_btn_Click(object sender, EventArgs e)
         {
-            decimal twoNumber=Convert.ToDecimal(label1.Text);
+            decimal twoNumber = Convert.ToDecimal(label1.Text);
             decimal total;
 
             switch (simbol)
             {
                 case '+':
-                    total = oneNumber + twoNumber; 
+                    total = oneNumber + twoNumber;
                     break;
                 case '-':
                     total = oneNumber - twoNumber;
